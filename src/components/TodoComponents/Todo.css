@@ -1,0 +1,64 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2d2d37;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+span {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.app {
+  text-align: center;
+  padding: 0 36px;
+  max-width: 665px;
+  margin: 0 auto;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.task {
+  background-color: skyblue;
+  width: 45%;
+  text-align: center;
+  margin: 4px 0;
+  padding-left: 8px;
+}
+
+.task.completed {
+  background-color: navy;
+  text-decoration: line-through;
+}
+
+form {
+  margin-top: 10px;
+  width: 300px;
+}
+
+input {
+  width: 90%;
+  height: 60px;
+}
