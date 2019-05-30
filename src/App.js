@@ -9,9 +9,9 @@ class App extends React.Component {
     // you will need a place to store your state in this component.
     this.state = {
       taskData: todo,
-      todo: "",
-      id: "",
-      completed: ""
+      todo: ""
+      // id: "",
+      // completed: ""
     };
   }
   // design `App` to be the parent component of your application.
@@ -20,7 +20,7 @@ class App extends React.Component {
     event.preventDefault();
     const newItem = {
       todo: this.state.todo,
-      id: this.state.id,
+      id: Date.now(),
       completed: this.state.completed
     };
     this.setState({
